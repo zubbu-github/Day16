@@ -11,7 +11,7 @@ public class JDBCDemo {
 		
 		Statement st = con.createStatement();
 		//String query = "create table student(ID int primary key,SName varchar(20),SMarks int)";
-		String query1 = "insert into student values (1,'Zubeir',25)";
+		String query1 = "insert into student values (3,'Tariq',30)";
 		
 		//st.executeUpdate(query);
 		st.executeUpdate(query1);
